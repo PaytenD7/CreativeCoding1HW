@@ -6,9 +6,9 @@
             function getdata()
             {
                 var name= document.getelementid("name").value;
-                var email= documetn.getelementid("phone").value;
+                var email= documetn.getelementid("email").value;
 
-                window.alert("your info: = name = phone")
+                window.alert("your info: = name = email")
             }
         </script>
         <style>
@@ -24,9 +24,9 @@
    
     <body><form style="background-color:antiquewhite;">
     <h2>Sign up for weekly updates on new content like this!!!!</h2>
-        First name : <input type="text"> <br>
-        Last name : <input type="text" > <br>
-        Email : <input type="text"> <br>
+    <input type="text" value = " " id="name">First Name<br>
+    <input type="text" value = " " id="name">Last Name <br>
+    <input type="text" value=" " id="Email">Email<br>
         <button id="btnSubmit" class="btn-primary" onclick="getdata()">Enter Info</button>"
          
     </form>
