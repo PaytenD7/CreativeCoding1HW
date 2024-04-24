@@ -1,10 +1,12 @@
 var x= 100;
 var y= 350
 var diameter= 50;
-var p=300
-var o= 300
-var l=500
-var k=500
+var p=300;
+var o= 300;
+var l=500;
+var k=500;
+var m=100;
+var m2=100;
 
 function setup()
 {
@@ -55,6 +57,10 @@ if (keyIsDown(83))
           {
             y-=5;
           }
-
-
+   square(m,m2,30)
+  }
+function mouseClicked()
+{
+  m=mouseX;
+  m2=mouseY;
 }
